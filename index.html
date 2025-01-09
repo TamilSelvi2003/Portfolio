@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamil selvi 👍</title>
+    <link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+
+</head> 
+
+<body>
+
+    <!-------------------------- Header  -------------------------->
+    <header class="header-area">
+        <div class="container">
+            <div class="header">
+               
+                <a href="" class="logo">
+                    <p>My Portfolio</p>
+                   <i class="fa fa-bolt"></i>
+                </a>
+                   
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+                <div class="menu_icon">
+                    <i class="fa fa-bars" onclick="toggleMenu()"></i>
+                </div>
+
+            </div>
+        </div> 
+    </header>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
+    <script>
+        function toggleMenu() {
+            var navbar = document.querySelector(".navbar");
+            var menuIcon = document.querySelector(".menu_icon");
+            
+            if (navbar.style.display === "block") {
+                navbar.style.display = "none";
+                menuIcon.style.color = "#fff"; 
+            } else {
+                navbar.style.display = "block";
+                menuIcon.style.color = "#333";
+            }
+            var navbarLinks = document.querySelectorAll(".navbar a");
+    navbarLinks.forEach(function(link) {
+        link.addEventListener("click", function() {
+            navbar.style.display = "none";
+            menuIcon.style.color = "#fff";
+        });
+    });
+        }
+    </script>
+    
+ 
+    <!-------------------------- Home Page -------------------------->
+    <section>
+    <div class="FirstElement" id="home">
+        <div class="profile-photo">
+            <img src="./images/tamilselvi img.jpg" alt="profile picture">
+        </div>
+        <div class="profile-text">
+            <h2>Hi I'm </h2><br>
+            <h1>Tamil Selvi</h1><br>
+            <p>I am a passionate Computer engineer and Front-End developer, constantly pushing the boundaries of technology. With a heart that beats in binary, coding is not just a skill but a love. In the dynamic world of software development, I thrive, crafting innovative solutions. This portfolio isn't just a display; it's a story of my dedication, each project marking a step in my pursuit of excellence. Explore with me, where code transforms into tales of ingenuity. Let's collaborate and shape the future of tech together in my digital universe! Welcome!</p>
+            
+            <div class="btn-group">
+                <a href="./images/Tamil-Resume final.pdf" class="btn   active">Download Resume </a>
+                <a href="#about" class="btn">View More</a>
+            </div>
+           
+            <div class="social">
+                <a href="https://www.linkedin.com/in/tamil-selvi-j-5b76b6233"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/TamilSelvi2003"><i class="fa-brands fa-github"></i></a>
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" ><i class="fa fa-envelope"></i></a>
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-------------------------- About Section -------------------------->
+    <section class="about-area" id="about">
+        <div class="container">
+            <div class="about">
+                
+                <div class="about-content">
+                    <h4>About Me</h4>
+                    <ul>
+                    <li>Computer Science Engineering student proficient in Python, HTML, CSS, JavaScript  ReactJS and Redux . Diverse project portfolio demonstrates commitment to delivering high-quality solutions, from dynamic web pages to complex algorithms.</li>
+                    <li>Experienced in real-world application of skills, developing interactive websites and addressing data-driven challenges. Specialized in front-end technologies with a keen eye for user interface design. Passionate about innovation and collaboration, actively seeking opportunities to contribute to impactful projects. </li>
+                    <li>Internship as a Front-end Developer provided practical industry exposure. Engaged in Full Stack Development during academic pursuits, enhancing skills. Portfolio showcases a blend of technical expertise and creative problem-solving.</li>
+                    <li> Explore my work to witness convergence of technical prowess and innovative solutions. Open for collaboration to discuss potential opportunities and project experiences.</li>
+                    </ul></div>
+                <div class="images-container">
+                 <img src="images/python.png">                          
+                <img src="images/html.png"> 
+                <img src="images/css.png">
+                <img src="images/js.png">
+                <h4 class="center">Skills</h4>
+                <img src="images/react.png">
+                <img src="images/redux.png">
+               
+                </div>
+                
+                
+            </div>
+        </div>
+    
+    </section>
+    
+
+
+        <!-------------- Education & Internship -------------->
+    <section class="education-content" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="education ">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        B.E CSE-83.4%
+                                    </h3>
+                                    <h4 class="timeline-title">IFET COLLEGE OF ENGINEERING</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2020-2024
+                                    </h4>
+                                </div> 
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">HSC-67.3%</h3>
+                                    <h4 class="timeline-title">A.R.L.M Matric Higher Secondary school</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2019-2020
+                                    </h4>
+                                </div>
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        SSLC-88.6%
+                                    </h3>
+                                    <h4 class="timeline-title"> Krishnasamy Matric Higher Secondary school of Excellence</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i> 2017-2018
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="internship">
+                    <h3 class="title">Internships</h3>
+                    <div class="row">
+                        <div class="timeline-box">
+                            <div class="timeline">
+                                
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">
+                                        FRONT-END DEVELOPER                        
+                                    </h3>
+                                    <h4 class="timeline-title">Neelavath Software Solution </h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i>  Jan 2024 - Mar 2024
+                                    </h4>
+                                    <li class="timeline-text">Excel in frontend development, ensuring a seamless and compelling user experience. Blend design fundamentals with precision for web solutions.</li>
+                                       <li> TECH STACK:  Python, Django.
+                                        
+                                    </li>
+                                </div> 
+                                <!-- Timeline-item -->
+                                <div class="timeline-item">
+                                    <div class="circle-dot"></div>
+                                    <h3 class="timeline-title">FULL STACK DEVELOPMENT</h3>
+                                    <h4 class="timeline-title">AICL</h4>
+                                    <h4 class="timeline-title">
+                                        <i class="fa fa-calendar"></i>  July 2022-August 2022
+                                    </h4>
+                                    <li class="timeline-text">Gained foundational web development knowledge, showcasing my skills through a responsive website. Versatile full-stack developer with a solid grasp of essential concepts.</li>
+                                       <li> TECH STACK:  HTML,CSS,Javascript,Bootstrap.
+                                        </li>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-------------------------- Projects -------------------------->
+   
+    <section id="portfolio" class="portfolio">
+        <div class="main-text">
+            <div class="project-title">
+                <h4>My Projects</h4>
+                
+            </div>
+        <div class="container">
+            <div class="filter-buttons">
+                
+
+            </div>
+            <div class="portfolio-gallery">
+                <div class="port-box">
+                    <div class="port-image">
+                        <img src="images/weather.PNG">
+                    </div>
+                    <div class="port-content">
+                        <h3> REALTIME WEATHER FORECASTING WEBSITE</h3>
+                        <p>
+                            Check the climate: JavaScript weather forecasting projects provides  for Endless Information in realtime.!
+                        </p>
+                        <a href="https://tamilselvi2003.github.io/Weather-reporting-js/"><img src="images/eye.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- MEDICINAL PLANT  -->
+                <div class="port-box">
+                   <div class="port-image">
+                        <img src="images/app.PNG">
+                    </div>
+                    <div class="port-content">
+                        <h3>AN GROCERY WEBSITE WITH STRIPE PAYMENT.</h3>
+                        <p>
+                            Build a grocery website featuring Stripe payment integration for seamless and secure Login Authentication.</p>
+                        <a href="https://grocerywith-stripe.onrender.com/"><img src="images/eye.png" alt=""></a>
+                    </div>
+                </div>
+
+                <!-- TEXT-SPEAK -->
+                <div class="port-box">
+                    <div class="port-image">
+                        <img src="./images/text-speak.PNG">
+                    </div>
+                    <div class="port-content">
+                        <h3>TEXT TO SPEAK CONVERTOR</h3>
+                        <p>
+                            Developed a dynamic web application to convert text input into speech using JavaScript and the Web Speech API.
+                        </p>
+                        <a href="https://tamilselvi2003.github.io/text-speak/"><img src="images/eye.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- BOOK STORE  -->
+                <div class="port-box">
+                    <div class="port-image">
+                        <img src="images/bookreview.PNG">
+                    </div>
+                    <div class="port-content">
+                        <h3>AN ONLINE BOOKSTORE APPLICATION FOR STUDENTS</h3>
+                        <p>
+                            An online bookstore application offering affordable textbooks and resources tailored for students' academic needs.
+                            </p>
+                        <a href="https://tamilselvi2003.github.io/book-review/"><img src="images/eye.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- LIBRARY PROJECT -->
+                <div class="port-box">
+                    <div class="port-image">
+                        <img src="./images/library.png">
+                    </div>
+                    <div class="port-content">
+                        <h3>E-LIBRARY SYSTEM </h3>
+                        <p>
+                          
+                        </p>
+                        <a href="https://github.com/TamilSelvi2003/E-Library-System"><img src="images/eye.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- Quizz App -->
+                <div class="port-box">
+                    <div class="port-image">
+                        <img src="images/quizzapp.PNG">
+                    </div>
+                    <div class="port-content">
+                        <h3>Quizz_app</h3>
+                        <p>
+                       An interactive quiz app that tests your  knowledge with custom questions, tracks scores, and provides instant feedback on answers.!
+                        </p>
+                        <a href="https://tamilselvi2003.github.io/Quizz-app/"><img src="images/eye.png" alt=""></a>
+                    </div>
+                </div>
+               
+
+               
+                
+            </div>
+        </div>
+    </section>
+
+        <!-------------------------- Contact Me -------------------------->
+
+        <section class="contact-content" id="contact">
+            <div class="container">
+                <div class="contact-title">
+                    <h4>Contact Me</h4>
+                    <p>Get In Touch</p>    
+                </div>
+                <div class="contact">
+                    <script src="https://sheetdb.io/s/f/tb30mgu64iacm.js"></script>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </section>
+        
+         
+        
+        
+    <!-------------------------- JS -------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+    <!-------------------------- Footer section -------------------------->
+   <footer class="footer">
+    <small class="message">Thanks for visiting and happy coding!</small>
+    <small class="copyright">&copy; Copyright 2023. All rights reserved.</small>
+   </footer>
+
+</body>
+</html>
